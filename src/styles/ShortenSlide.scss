@@ -1,0 +1,53 @@
+.ShortenSlide {
+  display: flex;
+  justify-content: center;
+
+  form {
+    display: flex;
+    justify-content: center;
+  }
+}
+.shorten-slide-container {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 93%;
+  background-color: #3a3054;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  bottom: -13rem;
+
+  img {
+    position: relative;
+    right: -5rem;
+    top: -1rem;
+  }
+  .shorten-slide-input-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 96%;
+    align-items: center;
+    padding: 1rem;
+    button {
+      width: 100%;
+      padding: 0.5rem;
+      border-radius: 5px;
+      border: none;
+      background-color: #2bd0d0;
+      color: white;
+    }
+
+    input {
+      width: 100%;
+      padding: 0.3rem;
+      border-radius: 5px;
+      border: none;
+    }
+  }
+}

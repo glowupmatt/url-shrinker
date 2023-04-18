@@ -1,0 +1,33 @@
+.hero-slide {
+  overflow: hidden;
+  background-color: white;
+  .hero-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+    position: relative;
+    text-align: center;
+    margin-bottom: 8rem;
+  }
+  img {
+    position: relative;
+    width: 28rem;
+    right: -2rem;
+  }
+  h2 {
+    font-size: 1.7rem;
+  }
+  button {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 2.7rem;
+    border-radius: 20rem;
+    border: none;
+    color: white;
+    background-color: #2bd0d0;
+  }
+}
